@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lr_Onsale>
+            <version>1.0.0.3</version>
+        </Lr_Onsale>
+    </modules>
+    <global>
+        <blocks>
+            <Lr_onsale>
+                <class>Lr_Onsale_Block</class>
+            </Lr_onsale>
+        </blocks>
+        <helpers>
+            <Lr_onsale>
+                <class>Lr_Onsale_Helper</class>
+            </Lr_onsale>
+        </helpers>
+        <models>
+            <Lr_onsale>
+                <class>Lr_Onsale_Model</class>
+            </Lr_onsale>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <onsale>
+                    <file>Lr/onsale.xml</file>
+                </onsale>
+            </updates>
+        </layout>
+    </frontend>
+</config>

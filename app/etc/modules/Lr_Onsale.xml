@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Lr_Onsale>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Lr_Onsale>
+    </modules>
+</config>
